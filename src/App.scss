@@ -20,13 +20,20 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 50vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: rgb(206, 182, 76);
+}
+
+.box-message{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 140px;
 }
 
 .top-height{
@@ -43,6 +50,7 @@
 
 .card-width{
   flex-grow: 1;
+  padding: 0 2%;
 }
 
 @keyframes App-logo-spin {

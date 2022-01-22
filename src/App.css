@@ -24,7 +24,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 50vh;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,6 +40,17 @@
           justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #ceb64c;
+}
+
+.box-message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-top: 140px;
 }
 
 .top-height {
@@ -58,6 +69,7 @@
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  padding: 0 2%;
 }
 
 @-webkit-keyframes App-logo-spin {
